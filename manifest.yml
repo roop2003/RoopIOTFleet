@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Fleet Management Roop IOT
+  host: Fleet-Management-Roop-IOT
+  disk_quota: 1024M
+  services:
+  - Fleet Management Roop IOT-cloudantNoSQLDB
+  - Fleet Management Roop IOT-iotf-service
